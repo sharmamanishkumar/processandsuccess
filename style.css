@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  color: white;
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #0f0c29,
+    #302b63
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 8px;
+}
+.container-progess {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+.logo {
+  display: flex;
+}
+.progess p {
+  font-size: 12px;
+}
+.cross-logo {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  margin-left: 23px;
+}
+button {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 4px;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.logo i {
+  color: #194ea9;
+  font-size: 25px;
+  /* margin-bottom: 28px; */
+}
+.progree-container {
+  display: flex;
+  justify-content: space-between;
+}
+.progess1::after {
+  content: "50%";
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -10px;
+  font-size: 12px;
+}
+.progess {
+  padding: 10px 30px;
+}
+.cross-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+.progess p {
+  width: 300px;
+  margin: 7px 0;
+}
+
+/* success */
+.two-button {
+  display: flex;
+  justify-content: space-evenly;
+}
